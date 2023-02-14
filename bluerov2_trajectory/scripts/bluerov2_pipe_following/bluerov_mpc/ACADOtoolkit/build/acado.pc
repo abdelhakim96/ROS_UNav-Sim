@@ -1,0 +1,8 @@
+Name: ACADO Toolkit
+Description: Toolkit for Automatic Control and Dynamic Optimization
+URL: http://www.acadotoolkit.org
+Version: 1.2.2beta
+Libs: -L/home/hakim/Desktop/ACADOtoolkit/build/lib -lacado_toolkit_s
+Cflags: -I/home/hakim/Desktop/ACADOtoolkit -I/home/hakim/Desktop/ACADOtoolkit/acado -I/home/hakim/Desktop/ACADOtoolkit/external_packages -I/home/hakim/Desktop/ACADOtoolkit/external_packages/qpOASES-3.2.0/include -I/home/hakim/Desktop/ACADOtoolkit/build
+qpOASESsrc= /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp /home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp
+qpOASESinc= -I/home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/ -I/home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/INCLUDE -I/home/hakim/Desktop/ACADOtoolkit/external_packages/qpoases/SRC

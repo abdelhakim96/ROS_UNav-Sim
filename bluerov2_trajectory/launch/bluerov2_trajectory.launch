@@ -1,0 +1,5 @@
+<launch>
+    <node name="rov_trajectory" pkg="bluerov2_trajectory" type="rov_trajectory" output="screen"/>
+     <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" />
+
+</launch>
