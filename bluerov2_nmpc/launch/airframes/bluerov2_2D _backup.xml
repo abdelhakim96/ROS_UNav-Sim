@@ -1,0 +1,20 @@
+<launch>
+    <!-- bluerov2 -->
+    <param name="W_Wn_factor" type="double" value="0.15" /> <!-- Factor for WN weights. -->
+    <param name="F_x_ref" type="double" value="$(eval 0.0)" /> <!-- Reference for Force in x direction. -->
+    <param name="F_y_ref" type="double" value="$(eval 0.0)" /> <!-- Reference for Force in y direction. -->
+    <param name="F_z_ref" type="double" value="$(eval 0.0)" /> <!-- Reference for Force in z direction. -->
+    <param name="M_z_ref" type="double" value="$(eval 0.0)" /> <!-- Reference for moment about z axis. -->
+    <param name="W_x" type="double" value="100.0" /> <!-- Weight for x-position. -->
+    <param name="W_y" type="double" value="100.0" /> <!-- Weight for y-position. -->
+    <param name="W_z" type="double" value="20.0" /> <!-- Weight for z-position. -->
+    <param name="W_u" type="double" value="0.5" /> <!-- Weight for x-velocity. -->
+    <param name="W_v" type="double" value="0.5" /> <!-- Weight for y-velocity. -->
+    <param name="W_w" type="double" value="0.5" /> <!-- Weight for z-velocity. -->
+    <param name="W_psi" type="double" value="20.0" /> <!-- Weight for yaw angle. -->
+    <param name="W_r" type="double" value="10.0" /> <!-- Weight for yawrate. -->
+    <param name="W_Fx" type="double" value="1.0" /> <!-- Weight for Force in x direction. -->
+    <param name="W_Fy" type="double" value="1.0" /> <!-- Weight for Force in y direction. -->
+    <param name="W_Fz" type="double" value="1.0" /> <!-- Weight for Force in z direction. -->
+    <param name="W_Mz" type="double" value="15.5" /> <!-- Weight for Moment about z axis. -->
+</launch>
